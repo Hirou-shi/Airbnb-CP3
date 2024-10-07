@@ -14,16 +14,12 @@ const Rotas = createBrowserRouter ([
         index: true,
         element: <Home />
       },
-      {
-        path: "",
-        element:,
-      }
     ]
   }
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={ Rotas } />
+    <RouterProvider router={Rotas} />
   </StrictMode>,
 )
