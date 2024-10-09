@@ -1,28 +1,3 @@
-import React from 'react'
-
-export default function Header() {
-  return (
-    <>
-            <nav>
-                <div class="logo-header">
-                <img src="./assets/logo.png" width="120px" height="auto" alt="Imagem logo airbnb" />
-                </div>
-                <nav>
-                <ul>
-                    <li>Qualquer lugar</li>
-                    <div class="border"></div>
-                    <li>Qualquer Semana</li>
-                    <div class="border"></div>
-                    <div class="hospedes">
-                    <p>Hóspedes?</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="Imagem busca header--hospedes" viewBox="0 0 32 32"
-                        aria-hidden="true" role="presentation" focusable="false"
-                        style="display: block; fill: none;background-color:#ff385c;border-radius:50px;color:white; height: auto; width: 14px; padding: 8%  ;margin:2px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
-                        <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
-                    </svg>
-                    </div>
-                </ul>
-                </nav>
                 <div class="grid-layout-2-header">
                 <div class="anuncie-header">
                     <div class="texto-anuncie">
@@ -56,7 +31,3 @@ export default function Header() {
                         </svg></a></a>
                 </div>
                 </div>
-            </nav>
-    </>
-  )
-}
