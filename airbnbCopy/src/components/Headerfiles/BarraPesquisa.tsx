@@ -4,10 +4,10 @@ import { Search } from 'lucide-react';
 export default function BarraPesquisa() {
   return (
     <>
-        <div className='flex justify-around items-center cursor-pointer w-[450px] border h-12 rounded-full'>             
+        <div className='flex justify-around items-center cursor-pointer w-[450px] border h-12 rounded-full shadow-sm hover:shadow-lg'>             
             <p className='p-3'>Qualquer lugar</p>
-            <div className='items-center h-8 border-l border-gray-300'></div>
-            <p className='p-3'>Qualquer Semana</p>
+            <div className='items-center h-8 border-l border-gray-300 '></div>
+            <p className='p-3 whitespace-nowrap overflow-hidden overflow-ellipsis'>Qualquer Semana</p>
             <div className='items-center h-8 border-l border-gray-300'></div>
             <div className='flex items-center justify-center gap-2  p-2'>
                 <p className='p-3'>Hóspedes?</p>

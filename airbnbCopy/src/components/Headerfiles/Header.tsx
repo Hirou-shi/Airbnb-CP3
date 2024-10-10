@@ -12,8 +12,8 @@ export default function Header() {
             <Logo />
             <div className='flex items-center'>
               <BarraPesquisa />
-              <div className='flex p-3 items-center'>
-                  <p className='p-3'>Anuncie seu espaço no Airbnb</p>
+              <div className='flex p-3 items-center whitespace-nowrap'>
+                  <p className='p-3 flex-nowrap'>Anuncie seu espaço no Airbnb</p>
                   <Globe size={15}/>
               </div>
               <Perfil /> 
