@@ -10,13 +10,13 @@ export default function Boxpictures() {
                 <h1 className='text-3xl font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
             </div>
             <div className='flex gap-3 items-center'>
-                <div className='flex gap-2'>
+                <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl'>
                     <Share />
-                    <p>Compartilhar</p>
+                    <p className='underline'>Compartilhar</p>
                 </div>
-                <div className='flex gap-2 hover:bg-gray-100'>
+                <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl'>
                     <Heart />
-                    <p>Salvar</p>
+                    <p className='underline'>Salvar</p>
                 </div>
             </div>
         </div>
