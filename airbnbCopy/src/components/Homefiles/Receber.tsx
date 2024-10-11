@@ -3,19 +3,39 @@ import ReceberInfos from './ReceberInfos'
 
 export default function Receber() {
   return (
-    <section className="flex flex-col items-start border-y my-10 ">
+    <section className="flex flex-col items-start border-y py-10 ">
           <h1><strong>Quem vai receber você</strong></h1>
 
-        <div className="w-2/5 flex flex-col items-center my-14 shadow-xl p-10">
-          <img src="/anfitrias.webp" className="w-32 h-w-32 rounded-full"/>
-          <h1><strong>Wendy And Lisa</strong></h1>
-          <p>Começou a hospedar em 2024</p>
+        <div className="desktop:w-1/4 w-full flex my-14 shadow-xl rounded-2xl p-10 relative gap-3">
+          <div className="flex flex-col items-center">
+            <img src="/anfitriao.png" className="w-32 h-w-32 rounded-full"/>
+            <h1 className="text-center"><strong>Mathieu<br/>Lehanneur</strong></h1>
+            <p className='flex items-center'><img src="/medalha.png" className="w-[12px] h-[12px]"/>Superhost</p>
+          </div>
+
+          <div className="ml-auto" >
+            <div className="mb-4">
+              <h3><strong>10</strong></h3>
+              <p>avaliações</p>
+            </div>
+
+            <div className="border-y py-4">
+              <h3><strong>5</strong></h3>
+              <p>estrelas</p>
+            </div>
+
+            <div className="mt-4">
+              <h3><strong>6</strong></h3>
+              <p>meses hospedando</p>
+            </div>
+
+          </div>
         </div>
 
         <ReceberInfos/>
         
-        <div className="w-[50%]">
-          <p>Olá! Somos Wendy e Lisa. Amigas de infância, somos uma dupla musical premiada e temos orgulho de ter feito parte da lendária banda The Revolution. Nos anos 80, nos unimos ao nosso amigo e vocalista do Revolution, Prince, para dar vida à icônica música e filme "Purple Rain". Adoramos a ideia de viajar no tempo e voltar àquele momento mágico e compartilhá-lo com você!</p>
+        <div className="">
+          <p>Olá! Meu nome é Mathieu Lehanneur e sou um designer multidisciplinar francês. Eu crio móveis, objetos e espaços que combinam design, arte, natureza e ciência. Acredito na magia e na fantasia, e sempre procuro incluir um fator surpresa em tudo o que faço.</p>
         </div>
     </section>
   )

@@ -6,9 +6,9 @@ import { Globe, Instagram, Facebook, Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className=" w-[100%] border-t flex flex-col">
+    <footer className=" w-full desktop:px-40 px-5 border-t flex flex-col bg-[#F7F7F7]">
 
-      <div className="flex flex-col desktop:flex-row justify-around w-full mt-10">
+      <div className="flex flex-col desktop:flex-row justify-around mt-10">
         <Atendimento/>
         <div className="border-b desktop:hidden my-8"></div>
         <Hospedagem/>
