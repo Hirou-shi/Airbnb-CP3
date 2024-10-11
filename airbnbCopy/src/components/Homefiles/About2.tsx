@@ -1,8 +1,7 @@
 import React from 'react'
 import { Trophy, FlameKindling, Flower2, AudioLines} from 'lucide-react'
 
-export default function 
-() {
+export default function About2() {
   return (
     <section>
         <div className='flex flex-col gap-2 border-y-[1px] border-t-gray-300 w-[60%] text-left'>
