@@ -20,7 +20,7 @@ export default function Header() {
               <Perfil /> 
             </div>
         </section>
-        <section className='mobile:hidden flex justify-between h-6 items-center p-2 pb-8'>
+        <section className='mobile:hidden flex justify-between h-6 items-center p-2 pt-7 pb-8'>
             <div className='flex hover:underline hover:cursor-pointer items-center justify-center'>
               <ChevronLeft/>
               <p className='font-semibold text-sm'>Acomodações</p>

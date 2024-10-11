@@ -52,7 +52,7 @@ export default function Boxpictures() {
             </Swiper>
             <div className='flex gap-3 items-center p-4'>
                     <Languages />
-                    <h1 className='text-2xl font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
+                    <h1 className='text-[17px] font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
                 </div>
         </div>
     </section>
