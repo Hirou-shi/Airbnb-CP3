@@ -5,9 +5,9 @@ export default function About() {
   return (
     <section className='flex justify-between p-2 mb-8'>
         <div>
-            <div className='flex flex-col items-start mt-8'>
-                <h1 className='font-semibold text-[22px]'>Paris, França</h1>
-                <p className='text-[16px]'>Experiência à noite</p>
+            <div className='flex flex-col items-start mobile:mt-8'>
+                <h1 className='font-semibold mobile:text-[22px]'>Paris, França</h1>
+                <p className='mobile:text-[16px] text-[14px]'>Experiência à noite</p>
             </div>
             <div className='flex font-semibold mt-1 gap-1'>
                 <div className='flex ustify-center items-center'>

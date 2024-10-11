@@ -9,16 +9,16 @@ export default function Boxpictures() {
     <section>
         <div className='hidden mobile:flex flex-col'>
             <div className='flex items-center justify-between'>
-                <div className='flex gap-3 items-center'>
+                <div className='flex gap-3 items-center p-3 pt-6 justify-center'>
                     <Languages />
                     <h1 className='text-3xl font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
                 </div>
-                <div className='flex gap-3 items-center'>
-                    <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl'>
+                <div className='flex gap-3 items-center justify-center'>
+                    <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl justify-center items-center'>
                         <Share />
                         <p className='underline'>Compartilhar</p>
                     </div>
-                    <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl'>
+                    <div className='flex gap-2 hover:cursor-pointer hover:bg-gray-100 rounded-2xl justify-center items-center'>
                         <Heart />
                         <p className='underline'>Salvar</p>
                     </div>
