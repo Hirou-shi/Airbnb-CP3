@@ -42,7 +42,7 @@ export default function Boxpictures() {
                 </div>
             </div>
         </div>
-        <div className=''>
+        <div className='mobile:hidden'>
             <Swiper slidesPerView={1} onSwiper={(swiper) => console.log(swiper)}>
                 <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img1.png" alt="" /></SwiperSlide>
                 <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img2.png" alt="" /></SwiperSlide>
@@ -50,6 +50,10 @@ export default function Boxpictures() {
                 <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img4.png" alt="" /></SwiperSlide>
                 <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img5.png" alt="" /></SwiperSlide>
             </Swiper>
+            <div className='flex gap-3 items-center p-4'>
+                    <Languages />
+                    <h1 className='text-2xl font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
+                </div>
         </div>
     </section>
   );

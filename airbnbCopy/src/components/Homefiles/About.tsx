@@ -26,7 +26,7 @@ export default function About() {
             </div>
         </div>
 
-        <div className='border h-40 w-72 flex flex-col justify-center gap-6 shadow-md rounded-2xl items-center mt-10'>
+        <div className='hidden mobile:flex border h-40 w-72 flex-col justify-center gap-6 shadow-md rounded-2xl items-center mt-10'>
             <p className='font-semibold text-[24px]'>Encerrado</p>
             <div className='h-12 w-64 rounded-xl bg-gray-400 flex justify-center items-center'>
                 <p className=' text-white text-[16px] font-semibold'>Enviar Pedido</p>
