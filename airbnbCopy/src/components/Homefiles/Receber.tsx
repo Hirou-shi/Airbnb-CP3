@@ -4,7 +4,7 @@ import ReceberInfos from './ReceberInfos'
 export default function Receber() {
   return (
     <section className="flex flex-col items-start border-y py-10 ">
-          <h1><strong>Quem vai receber você</strong></h1>
+          <h1 className='text-xl'><strong>Quem vai receber você</strong></h1>
 
         <div className="desktop:w-1/4 w-full flex my-14 shadow-xl rounded-2xl p-10 relative gap-3">
           <div className="flex flex-col items-center">
@@ -15,18 +15,18 @@ export default function Receber() {
 
           <div className="ml-auto" >
             <div className="mb-4">
-              <h3><strong>10</strong></h3>
-              <p>avaliações</p>
+              <h3 className="desktop:text-2xl"><strong>10</strong></h3>
+              <p className="desktop:text-lg">avaliações</p>
             </div>
 
             <div className="border-y py-4">
-              <h3><strong>5</strong></h3>
-              <p>estrelas</p>
+              <h3 className="desktop:text-2xl"><strong>5</strong></h3>
+              <p className="desktop:text-lg">estrelas</p>
             </div>
 
             <div className="mt-4">
-              <h3><strong>6</strong></h3>
-              <p>meses hospedando</p>
+              <h3 className="desktop:text-2xl"><strong>6</strong></h3>
+              <p className="desktop:text-lg">meses hospedando</p>
             </div>
 
           </div>
@@ -34,7 +34,7 @@ export default function Receber() {
 
         <ReceberInfos/>
         
-        <div className="">
+        <div className="w-[40%]">
           <p>Olá! Meu nome é Mathieu Lehanneur e sou um designer multidisciplinar francês. Eu crio móveis, objetos e espaços que combinam design, arte, natureza e ciência. Acredito na magia e na fantasia, e sempre procuro incluir um fator surpresa em tudo o que faço.</p>
         </div>
     </section>

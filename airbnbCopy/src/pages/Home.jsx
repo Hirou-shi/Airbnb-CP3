@@ -11,7 +11,7 @@ import Comentarios from "../components/Homefiles/Comentarios";
 export default function home() {
   return (
         <section className=" px-5 desktop:px-40 ">
-            <div>home</div>
+
             <Boxpictures />
             <About />
             <About2 />
