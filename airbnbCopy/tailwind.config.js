@@ -7,7 +7,8 @@ export default {
   theme: {
     screens:{
       "desktop": "1000px",
-      "mini": "400px"
+      "mini": "400px",
+      "mobile": "750px"
     },
     extend: {},
   },

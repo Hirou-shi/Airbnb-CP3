@@ -2,13 +2,13 @@ import React from 'react'
 import Logo from './Logo'
 import BarraPesquisa from './BarraPesquisa'
 import Perfil from './Perfil'
-import { Globe } from 'lucide-react'
+import { Globe, Share, Heart, ChevronLeft } from 'lucide-react'
 
 
 export default function Header() {
   return (
     <>
-        <section className='top-0 min-w-full mx-auto flex items-center justify-between border-b'>
+        <section className='mobile:flex hidden top-0 min-w-full mx-auto items-center justify-between border-b'>
             <Logo />
             <div className='flex items-center'>
               <BarraPesquisa />
@@ -17,6 +17,17 @@ export default function Header() {
                   <Globe size={15}/>
               </div>
               <Perfil /> 
+            </div>
+        </section>
+        <section className='mobile:hidden flex justify-between p-2 h-6'>
+            <div className='flex '>
+              <ChevronLeft/>
+              <p>Acomoações</p>
+            </div>
+            
+            <div className='flex gap-4'>
+              <Share size={15}/>
+              <Heart size={15}/>
             </div>
         </section>
                     
