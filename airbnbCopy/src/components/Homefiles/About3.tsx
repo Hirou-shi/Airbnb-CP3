@@ -4,11 +4,11 @@ import { ChevronRight } from 'lucide-react'
 export default function About3() {
   return (
     <section className='flex flex-col justify-start gap-10 mt-7'>
-        <div className='mobile:flex bg-[#f7f7f7] w-[30%] gap-3 items-center justify-center mobile:text-center text-left p-3 rounded-xl'>
+        <div className='mobile:flex bg-[#f7f7f7] mini:w-[30%] gap-3 items-center justify-center mobile:text-center text-left p-3 rounded-xl'>
             <p className='text-base'>Algumas informações foram traduzidas automaticamente. </p>
             <p className='underline text-[13px] font-semibold'><strong>Exibir Original</strong></p>
         </div>
-        <div className='flex flex-col  mobile:flex w-[40%] text-lg'>
+        <div className='flex flex-col  mobile:flex mini:w-[40%] text-lg'>
             <div className='pb-5'>
                 <h2>Celebre o início dos Jogos Olímpicos de Paris 2024 no jardim exclusivo do terraço do Museu d'Orsay, pertinho das grandes obras-primas impressionistas que residem em suas paredes, e com toda a beleza de Paris ao seu redor. Em um lugar exclusivo e privilegiado e com muita dança e bebidas, você assistirá a cerimônia de abertura percorrer o Sena até chegar ao seu glorioso final aos pés da Torre Eiffel.</h2>
             </div>

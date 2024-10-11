@@ -6,7 +6,7 @@ import { Globe, Instagram, Facebook, Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className=" w-full desktop:px-40 px-5 border-t flex flex-col bg-[#F7F7F7]">
+    <footer className="w-full desktop:px-40 px-5 border-t flex flex-col bg-[#F7F7F7]">
 
       <div className="flex items-center border-b py-10 gap-3 font-normal text-lg">
         <a className='hover:underline hover:decoration-solid'>Airbnb</a>

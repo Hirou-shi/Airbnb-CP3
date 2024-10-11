@@ -1,4 +1,5 @@
 import React from 'react'
+import DeveSaber from "./OqVcDeveSaber.jsx"
 
 export default function UltimaParte() {
   return (
@@ -15,6 +16,7 @@ export default function UltimaParte() {
                 <p className='w-[390px] text-[15px]'>Experiências extraordinárias oferecidas pelos maiores nomes da música, do cinema, da TV, da arte, dos esportes e muito mais.</p>
             </div>
         </div>
+        <DeveSaber/>
     </section>
   )
 }
