@@ -19,8 +19,8 @@ export default function Header() {
               <Perfil /> 
             </div>
         </section>
-        <section className='mobile:hidden flex justify-between p-2 h-6'>
-            <div className='flex '>
+        <section className='mobile:hidden flex justify-between w-[560px] h-6 items-center'>
+            <div className='flex'>
               <ChevronLeft/>
               <p>Acomoações</p>
             </div>
