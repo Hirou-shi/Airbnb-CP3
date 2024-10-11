@@ -3,7 +3,7 @@ import { Star } from 'lucide-react'
 
 export default function About() {
   return (
-    <section className='flex justify-between p-2'>
+    <section className='flex justify-between p-2 mb-8'>
         <div>
             <div className='flex flex-col items-start mt-8'>
                 <h1 className='font-semibold text-[22px]'>Paris, França</h1>

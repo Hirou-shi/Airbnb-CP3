@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function About3() {
   return (
-    <section>
-        <div className='flex bg-gray-300'>
+    <section className='flex flex-col justify-start gap-10'>
+        <div className='flex bg-gray-300 w-[80%] text-center p-3'>
             <p>Algumas informações foram traduzidas automaticamente. </p>
             <p className='underline'>Exibir Original</p>
         </div>
         <div>
             <h2>Celebre o início dos Jogos Olímpicos de Paris 2024 no jardim exclusivo do terraço do Museu d'Orsay, pertinho das grandes obras-primas impressionistas que residem em suas paredes, e com toda a beleza de Paris ao seu redor. Em um lugar exclusivo e privilegiado e com muita dança e bebidas, você assistirá a cerimônia de abertura percorrer o Sena até chegar ao seu glorioso final aos pés da Torre Eiffel.</h2>
         </div>
-        <div>
-            <h3>O que vocês farão</h3>
+        <div className='text-left'>
+            <h3 className='font-semibold'>O que vocês farão</h3>
             <p>O Museu d'Orsay, que já foi uma estação ferroviária no coração de Paris, agora é um dos melhores museus do mundo. Em preparação para a Cerimônia de Abertura dos Jogos Olímpicos, o terraço no quinto andar foi transformado sob minha direção criativa, proporcionando uma atmosfera tão única como a própria Paris. Na verdade, na entrada do terraço, vocês descobrirão um piso que evoca o fluxo calmo das águas do Sena. Espero que gostem tanto do espaço quanto eu gostei de dar vida a ele.</p>
         </div>
-        <div>
+        <div className='text-left gap-10'>
             <p>Além das muitas atrações que preparei, o terraço oferece vistas inigualáveis da cerimônia, do Rio Sena e da cidade. Aproveite tudo ao máximo. Paris é uma obra-prima por si só. </p>
             <p>• Mantenha os olhos bem abertos ao chegar no terraço. Deixei a tocha olímpica deste ano, que tive o prazer de projetar, em exposição para você poder vê-la de perto.</p>
             <p>• Caminhe pelo piso inspirado no Sena até o bar de degustação, onde você pode se deliciar com a arte de Margot Lecarpentier, que já foi considerada "a bartender mais influente" de Paris.</p>
