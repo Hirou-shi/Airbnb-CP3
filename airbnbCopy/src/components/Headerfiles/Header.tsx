@@ -19,15 +19,19 @@ export default function Header() {
               <Perfil /> 
             </div>
         </section>
-        <section className='mobile:hidden flex justify-between w-[560px] h-6 items-center'>
-            <div className='flex'>
+        <section className='mobile:hidden flex justify-between h-6 items-center p-2 '>
+            <div className='flex hover:underline hover:cursor-pointer items-center justify-center'>
               <ChevronLeft/>
-              <p>Acomoações</p>
+              <p className='font-semibold'>Acomoações</p>
             </div>
             
-            <div className='flex gap-4'>
+            <div className='flex gap-2 hover:cursor-pointer'>
+              <div className='hover:bg-gray-200 rounded-full h-7 w-7 flex items-center justify-center'>
               <Share size={15}/>
+              </div>
+              <div className='hover:bg-gray-200 rounded-full h-7 w-7 flex items-center justify-center'>
               <Heart size={15}/>
+              </div>
             </div>
         </section>
                     
