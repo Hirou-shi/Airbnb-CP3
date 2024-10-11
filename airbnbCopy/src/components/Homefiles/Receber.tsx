@@ -34,7 +34,7 @@ export default function Receber() {
 
         <ReceberInfos/>
         
-        <div className="w-[40%]">
+        <div className="text-[12px] mobile:text-base mobile:w-[40%]">
           <p>Olá! Meu nome é Mathieu Lehanneur e sou um designer multidisciplinar francês. Eu crio móveis, objetos e espaços que combinam design, arte, natureza e ciência. Acredito na magia e na fantasia, e sempre procuro incluir um fator surpresa em tudo o que faço.</p>
         </div>
     </section>

@@ -5,7 +5,7 @@ import Col2 from "./ComentariosCol2.jsx"
 
 export default function Comentarios() {
   return (
-    <div className="py-10">
+    <div className="hidden mobile:block py-10">
         <div className="flex items-center gap-3 pb-10">
             <Star/>
             <h1 className="text-2xl"><strong>5,0 · 9 comentários</strong></h1>
