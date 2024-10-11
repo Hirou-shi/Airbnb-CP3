@@ -1,4 +1,5 @@
 import React from 'react'
+import DeveSaber from "./OqVcDeveSaber.jsx"
 import { Mail, CircleCheck, IdCard } from 'lucide-react'
 
 export default function UltimaParte() {
@@ -40,7 +41,7 @@ export default function UltimaParte() {
             <div className='border-y-[1px] border-t-gray-300 p-5'>
                 <p className='text-[8px] text-gray-500 text-left w-[60%]'>Se seu perfil for selecionado e você decidir reservar, você terá 24 horas para concluir a reserva. Os custos de viagem não estão inclusos. Confira as regras completas, incluindo os requisitos de idade e localização geográfica, como os seus dados serão utilizados, e demais condições aplicáveis.</p>
             </div>
-
+        <DeveSaber/>
     </section>
   )
 }
