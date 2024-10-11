@@ -8,7 +8,7 @@ export default function About3() {
             <p className='text-[12px]'>Algumas informações foram traduzidas automaticamente. </p>
             <p className='underline text-[13px] font-semibold'>Exibir Original</p>
         </div>
-        <div className='hidden mobile:flex'>
+        <div className='hidden mobile:flex flex-col'>
             <div>
                 <h2>Celebre o início dos Jogos Olímpicos de Paris 2024 no jardim exclusivo do terraço do Museu d'Orsay, pertinho das grandes obras-primas impressionistas que residem em suas paredes, e com toda a beleza de Paris ao seu redor. Em um lugar exclusivo e privilegiado e com muita dança e bebidas, você assistirá a cerimônia de abertura percorrer o Sena até chegar ao seu glorioso final aos pés da Torre Eiffel.</h2>
             </div>
