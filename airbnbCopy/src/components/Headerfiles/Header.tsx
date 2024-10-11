@@ -3,6 +3,7 @@ import Logo from './Logo'
 import BarraPesquisa from './BarraPesquisa'
 import Perfil from './Perfil'
 import { Globe, Share, Heart, ChevronLeft } from 'lucide-react'
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 export default function Header() {
@@ -19,10 +20,10 @@ export default function Header() {
               <Perfil /> 
             </div>
         </section>
-        <section className='mobile:hidden flex justify-between h-6 items-center p-2 '>
+        <section className='mobile:hidden flex justify-between h-6 items-center p-2 pb-8'>
             <div className='flex hover:underline hover:cursor-pointer items-center justify-center'>
               <ChevronLeft/>
-              <p className='font-semibold'>Acomoações</p>
+              <p className='font-semibold text-sm'>Acomodações</p>
             </div>
             
             <div className='flex gap-2 hover:cursor-pointer'>

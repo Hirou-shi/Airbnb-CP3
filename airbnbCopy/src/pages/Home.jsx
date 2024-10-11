@@ -10,7 +10,6 @@ import Receber from "../components/Homefiles/Receber";
 export default function home() {
   return (
         <section>
-            <div>home</div>
             <Boxpictures />
             <About />
             <About2 />
