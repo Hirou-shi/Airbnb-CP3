@@ -6,7 +6,7 @@ export default function Receber() {
     <section className="flex flex-col items-start border-y py-10 ">
           <h1 className='text-xl'><strong>Quem vai receber você</strong></h1>
 
-        <div className="desktop:w-1/4 w-full flex my-14 shadow-xl rounded-2xl p-10 relative gap-3">
+        <div className="desktop:w-[40%] w-full flex my-14 shadow-xl rounded-2xl p-10 relative gap-3">
           <div className="flex flex-col items-center">
             <img src="/anfitriao.png" className="w-32 h-w-32 rounded-full"/>
             <h1 className="text-center"><strong>Mathieu<br/>Lehanneur</strong></h1>

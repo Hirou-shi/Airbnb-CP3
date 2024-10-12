@@ -4,7 +4,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
+
 export default function Boxpictures() {
+
+    const images = [
+        "img1.png",
+        "img2.png",
+        "img3.png",
+        "img4.png",
+        "img5.png"
+    ]
   return (
     <section>
         <div className='hidden mobile:flex flex-col'>
@@ -43,17 +52,24 @@ export default function Boxpictures() {
             </div>
         </div>
         <div className='mobile:hidden'>
-            <Swiper slidesPerView={1} onSwiper={(swiper) => console.log(swiper)}>
-                <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img1.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img2.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img3.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img4.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='h-[530px] w-full object-cover' src="/img5.png" alt="" /></SwiperSlide>
+            <Swiper slidesPerView={1} spaceBetween={50} onSwiper={(swiper) => console.log(swiper)}>
+                {images.map((img, index) =>(
+                    <SwiperSlide key={index}>
+                        <div className="relative">
+                            <img className='h-[530px] w-full object-cover' src={img} />
+                            <div className="absolute bottom-4 right-4 text-white text-xs bg-black bg-opacity-50 px-2 py-1 rounded">
+                                {index + 1} / {images.length}
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                ) )}
             </Swiper>
             <div className='flex gap-3 items-center p-4'>
-                    <Languages />
-                    <h1 className='text-[17px] font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
-                </div>
+                <Languages />
+                    
+                <h1 className='text-[17px] font-semibold'>Abertura dos Jogos Olímpicos no Museu de Orsay</h1>
+            </div>
         </div>
     </section>
   );

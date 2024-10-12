@@ -8,7 +8,8 @@ export default {
     screens:{
       "desktop": "1000px",
       "mini": "400px",
-      "mobile": "750px"
+      "mobile": "750px",
+      "small": "500px"
     },
     extend: {},
   },
