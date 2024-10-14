@@ -10,7 +10,7 @@ import UltimaParte from "../components/Homefiles/UltimaParte";
 
 
 
-export default function home() {
+export default function Home() {
   return (
         <section className=" px-5 desktop:px-40 ">
 
